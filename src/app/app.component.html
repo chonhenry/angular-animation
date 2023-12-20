@@ -1,0 +1,13 @@
+<div [@colorChange]="currentState" class="animated-box">
+  Content goes here...
+</div>
+
+<button (click)="changeState('state1')">State 1</button>
+<button (click)="changeState('state2')">State 2</button>
+<button (click)="changeState('state3')">State 3</button>
+<button (click)="changeState('state4')">State 4</button>
+
+<!-- <div [@openClose]="isOpen ? 'open' : 'closed'" class="animate-box">
+  <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+</div>
+<button (click)="toggle()">Toggle</button> -->
